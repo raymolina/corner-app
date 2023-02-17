@@ -1,118 +1,118 @@
 * {
+  margin: 0;
+  padding: 0;
+}
+.container {
+  width: 100%;
+  height: 50px;
+  position: fixed;
+}
+.container-img {
+  background: #000000; /* fallback for old browsers */
+  background: -webkit-linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #434343,
+    #000000
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+  height: 800px;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+}
+.logo {
+  position: relative;
+  background: none;
+}
+.C1 {
+  width: 70px;
+  height: 50px;
+  position: relative;
+  left: 30px;
+}
+.nav-link {
+  display: flex;
+  justify-content: space-around;
+  margin: 10px;
+  font-size: 25px;
+  margin: 20px;
+}
+button {
+  border: none;
+  background: none;
+}
+a {
+  font-family: "Dancing Script", cursive;
+  text-decoration: none;
+  color: gray;
+  font-size: 2.5em;
+  text-shadow: 1rem 1rem 1rem white;
+}
+.a {
+  border-radius: 25px;
+  position: relative;
+  bottom: 65px;
+}
+.slogan {
+  background-color: #000000;
+  width: 450px;
+  position: relative;
+  left: 50px;
+  top: 100px;
+  border-radius: 30px;
+}
+.vs {
+  font-family: "Dancing Script", cursive;
+  color: white;
+  font-size: 38px;
+  bottom: 160px;
+  right: 30px;
+  position: relative;
+  text-shadow: #414345 4px 4px 2px;
+}
+.s {
+  font-family: "Bebas Neue", cursive;
+  left: 10px;
+  position: relative;
+  color: white;
+  font-size: 20px;
+  bottom: 22px;
+}
+.container2 {
+  display: flex;
+  justify-content: right;
+  font-size: 20px;
+  position: relative;
+  bottom: 53px;
+  right: 100px;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.horarios {
+  color: rgba(255, 255, 255, 0.927);
+  font-size: 20px;
+  font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
+}
+
+@media only screen and (max-width: 900px) {
+  * {
     margin: 0;
     padding: 0;
   }
   .container {
-    background-color: black;
+    /* background-color: white; */
     width: 100%;
     height: 50px;
     position: fixed;
   }
   .container-img {
-    background-image: url(../component/imagenes/corner2.jpeg);
     height: 800px;
-    background-position: center center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-attachment: fixed;
-  }
-  .logo {
-    position: relative;
-    background: none;
-  }
-  .C1 {
-    width: 70px;
-    height: 50px;
-    position: relative;
-    left: 30px;
-  }
-  .nav-link{
-    color: #232526;
-    display: flex;
-    justify-content: space-around;
-    margin: 10px;
-    font-size: 25px;
-    margin: 20px;
-    
-  }
-  button{
-    border:none;
-    background:none;
-
-  }
-  a{
-    
-    text-decoration: none;
-    color: white;
-    font-size: 2.0em ;
-  }
-  .a {
-    border-radius: 25px;
-    position: relative;
-    bottom: 65px;
-  }
-  .slogan {
-    background: black;
-    background: -webkit-linear-gradient(to right, #414345, #232526);
-    background: linear-gradient(to right, #414345, #232526);
-    width: 450px;
-    position: relative;
-    left: 50px;
-    top: 395px;
-    border-radius: 30px;
-  }
-  .vs {
-    font-family: 'Dancing Script', cursive;
-    color: #232526;
-    font-size: 38px;
-    bottom: 460px;
-    right: 30px;
-    position: relative;
-    text-shadow: #414345 4px 4px 2px;
-  }
-  .s {
-    font-family: 'Bebas Neue', cursive;
-    left: 10px;
-    position: relative;
-    color: white;
-    font-size: 20px;
-    bottom: 22px;
-  } 
-  .container2 {
-    display: flex;
-    justify-content: right;
-    font-size: 20px;
-    position: relative;
-    bottom: 153px;
-    right: 15px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-
-  }
-  .horarios {
-    color: #414345;
-    font-size: 20px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-  }
- 
-  
- 
-
-  @media only screen and (max-width: 900px) {
-
-* {
-    margin: 0;
-    padding: 0;
-  }
-  .container {
-    background-color: black;
-    width: 100%;
-    height: 50px;
-    position: fixed;
-  }
-  .container-img {
-    background-image: url(../component/imagenes/corner2.jpeg);
-    height: 800px;
-    width: auto; 
+    width: auto;
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -128,25 +128,22 @@
     position: relative;
     left: 0px;
   }
-  .nav-link{
+  .nav-link {
     color: #232526;
     display: flex;
     justify-content: space-around;
     margin: 10px;
     font-size: 25px;
     margin: 20px;
-    
   }
-  button{
-    border:none;
-    background:none;
-
+  button {
+    border: none;
+    background: none;
   }
   a {
-   
     text-decoration: none;
     color: white;
-    font-size: 1.1em ;
+    font-size: 1.3em;
   }
   .a {
     border-radius: 25px;
@@ -155,7 +152,7 @@
     margin: 5px;
     left: 15px;
   }
- 
+
   .slogan {
     background: black;
     background: -webkit-linear-gradient(to right, #414345, #232526);
@@ -164,14 +161,14 @@
     height: 140px;
     position: relative;
     /* right: 100px; */
-    top: 470px;
+    top: 370px;
     border-radius: 30px;
     left: 5px;
   }
   .vs {
-    color: #232526;
-    font-size: 35px;
-    bottom: 550px;
+    color: white;
+    font-size: 32px;
+    bottom: 400px;
     position: relative;
     left: 10px;
     text-shadow: #414345 4px 4px 2px;
@@ -181,17 +178,15 @@
     position: relative;
     color: white;
     font-size: 19px;
-    bottom: 85px;
-  } 
+    bottom: 35px;
+  }
   .container2 {
+    top: 10px;
     position: relative;
-    bottom: 115px;
+    right: 20px;
   }
   .horarios {
     font-size: 15px;
-    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-    
-
+    font-family: Impact, Haettenschweiler, "Arial Narrow Bold", sans-serif;
   }
- 
 }
